@@ -1,0 +1,353 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(26, 26, 26);
+    
+
+}
+
+ /*MENU DA ESQUERDA, LEFT_MENU-CONTAINER*/
+
+.left_menu-container{
+    border: 1px solid rgb(26, 26, 26);
+    width: 300px;
+    height: 100vh;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 200px;
+}
+
+.logo-container{
+    border: 1px solid rgb(26, 26, 26);
+    width: 250px;
+    height: 100px;
+    margin: 30px;
+    display: table;
+    
+    
+}
+
+.btn-logo{
+    font-size: 60px;
+    color: white ;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.button-container{
+    margin: 10px;
+    border: 1px solid rgb(26, 26, 26);
+}
+
+#btn-store{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 60px;
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: white; 
+    cursor: pointer;
+    transition: background-color 0.5s, border 0.5s;
+}
+
+#btn-store:hover{
+    background-color: rgb(66, 66, 66);
+    border: 1px solid rgb(66, 66, 66);
+}
+
+.fa-tag{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white; 
+}
+
+#btn-biblioteca{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 60px;
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s, border 0.5s;
+}
+#btn-biblioteca:hover{
+    background-color: rgb(66, 66, 66);
+    border: 1px solid rgb(66, 66, 66);
+}
+
+.fa-grip{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+#btn-unrealengine{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 60px;
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s, border 0.5s;
+}
+
+#btn-unrealengine:hover {
+    background-color: rgb(66, 66, 66);
+    border: 1px solid rgb(66, 66, 66);
+}
+
+#logounreal{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu-p{
+    font-size: 17px;
+}
+
+/*MENU DE INICIALIZAÇÃO RÁPIDA, FAST-CONTAINER*/
+
+.fast-p{
+    font-size: 17px;
+}
+
+#titulofast{
+    text-align: left;
+    margin-left: 30px;
+    color: white;
+}
+
+.faststartgames{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 60px;
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s, border 0.5s;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.faststartgames:hover{
+    background-color: rgb(66, 66, 66);
+    border: 1px solid rgb(66, 66, 66);
+}
+
+.fast-img{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+/*MENU DO HEADER, CABEÇALHO, HEAEER-MENU*/
+
+.header-menu{
+    width: 100vw;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+    z-index: 100;
+    
+    
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(66, 66, 66);
+}
+
+input{
+    background-color: rgb(66, 66, 66);
+    outline: none;
+    width: 120px;
+    height: 20px;
+    border: none;
+    color: white;
+}
+
+.btn-search{
+    background-color: rgb(66, 66, 66);
+    border: none;
+    color: white;
+}
+
+.search{
+    width: 50vw;
+}
+
+.links{
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+    border-right: 3px solid rgb(66, 66, 66);
+
+}
+
+.a-links{
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    transition: color 0.5s;
+    
+}
+
+.a-links:hover{
+    color: white;
+}
+
+.user_friends-button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left:30px;
+}
+
+.button-users{
+    margin-right: 30px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.button-users:hover{
+    background-color: rgb(92, 91, 91);
+}
+
+/*GAMES CONTAINER, CONTAINER DOS JOGOS*/
+
+.games-container{
+    border: 1px solid rgb(26, 26, 26);
+    position: absolute;
+    left: 300px;
+    right: 200px;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.container-grid{
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 15px;
+    width: 215px;
+    height: 355px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: border 0.5s, background-color 0.5s;
+}
+.container-grid:hover{
+    border: 1px solid rgb(66, 66, 66);
+    background-color: rgb(66, 66, 66);
+}
+
+.img-cases{
+    margin: 15px;
+    border-radius: 10px;
+    
+}
+
+.games-title{
+    margin-left: 15px;
+    margin-top: 0px;
+    color: white; 
+    height: 10px;
+}
+
+.games-subtitle{
+    margin-left: 5px;
+    color: grey;
+    
+}
+.button-play{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    width: 95px;
+    height: 15px;
+    background-color:none;
+    border: none;
+    text-decoration: none;
+    
+    
+}
+
+.fa-play{
+    color: white;
+    margin-left: 15px;
+}
+
+.right_menu-container{
+    height: 100vh;
+    width: 200px;
+    
+    float: right;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+#Rmenutitle{
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
